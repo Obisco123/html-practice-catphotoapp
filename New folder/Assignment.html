@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CatPhotoApp</title>
+</head>
+
+<body>
+    <main>
+        <h1>CatPhotoApp</h1>
+        <nav>
+            <ul style="display: flex; list-style-type: none;">
+                <li style="margin-right: 20px;"><a href="#home">Home</a></li>
+                <li style="margin-right: 20px;"><a href="#News">News</a></li>
+                <li style="margin-right: 20px;"><a href="#contact">Contact</a></li>
+                <li style="margin-right: 20px;"><a href="#about">About</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h2>Cat Photos</h2>
+            <p>See more <a href="http://www.catphotos.com" target="_blank">cat photos</a> in our gallery</p>
+            <a href="http://www.catphotos.com" target="_blank">
+                <img src="../New folder/Image Folder/download.jpg" alt="Image of a cat">
+            </a>
+        </section>kk
+        <section>
+            <h2>Cat Lists</h2>
+            <table border="2px">
+                <tr>
+                    <th>Things Cats Love</th>
+                    <th>Things Cats Hate</th>
+                </tr>
+                <tr>
+                    <td>Cat Nip</td>
+                    <td>Flea Treatment</td>
+                </tr>
+                <tr>
+                    <td>Laser Pointer</td>
+                    <td>Thunder</td>
+                </tr>
+                <tr>
+                    <td>Lasagna</td>
+                    <td>Other Cats</td>
+                </tr>
+            </table>
+            <figure>
+                <img src="./Image Folder/Lasagna.jpg" alt="A plate of Lasagna">
+                <figcaption>Cats <em>love</em> Lasagna</figcaption>
+            </figure>
+            <figure>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYJNg7d8WmQGENMcqXhjLYCgq_7f6SBlzyWCuBpuVCBUeEgcfxbumxxLe1LQ&s"
+                    alt="Many cats">
+                <figcaption>Cats <strong>hate</strong> other cats</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Cat Form</h2>
+            <form action="https:/www.google.com">
+                <fieldset>
+                    <legend>Is your cat an indoor or outdoor cat</legend>
+                    <label for="indoor">
+                        <input type="radio" name="indoor-outdoor" id="indoor">Indoor
+                    </label>
+                    <label for="outdoor">
+                        <input type="radio" name="indoor-outdoor" id="outdoor">Outdoor
+                    </label>
+                </fieldset>
+            </form>
+            <form>
+                <fieldset>
+                    <legend>What is the personality of your cat</legend>
+                    <label for="Loving">
+                        <input type="checkbox" name="personality" id="Loving">Loving
+                    </label>
+                    <label for="Lazy">
+                        <input type="checkbox" name="personality" id="Lazy">Lazy
+                        <label for="Energetic">
+                            <input type="checkbox" name="personality" id="Energetic">Energetic
+                        </label>
+                </fieldset>
+                <input type="search" name="catphotourl" id="cataphotourl" placeholder="Cat Photo Url" required>
+                <button type="submit">Submit</button>
+            </form>
+    </main>
+    <footer>
+        <p>No Copyright <a href="">myteacher.com</a></p>
+    </footer>
+</body>
+
+</html>
